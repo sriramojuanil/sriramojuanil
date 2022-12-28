@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = sriramojuanil
+	email = sriramoju.anil@gmail.com
+	gmail = sriramojuanil2@gmail.com
+[gui]
+	recentrepo = C:/Users/sriramojuanil/OneDrive/Desktop/anil
